@@ -3,10 +3,10 @@ en:
   activemodel:
     attributes:
       spree/order_cancellations:
-        cancel: Cancel
-        quantity: Quantity
-        shipment: Shipment
-        state: State
+        cancel: Hủy bỏ
+        quantity: Số lượng
+        shipment: Lô hàng
+        state: Trạng thái
     errors:
       models:
         spree/fulfilment_changer:
@@ -14,50 +14,49 @@ en:
             current_shipment:
               can_not_have_backordered_inventory_units: has backordered inventory
                 units
-              has_already_been_shipped: has already been shipped
+              has_already_been_shipped: đã được vận chuyển
             desired_shipment:
-              can_not_transfer_within_same_shipment: can not be same as current shipment
-              not_enough_stock_at_desired_location: not enough stock in desired stock
-                location
+              can_not_transfer_within_same_shipment: không thể giống như lô hàng hiện tại
+              not_enough_stock_at_desired_location: không có đủ hàng trong kho mong muốn
   activerecord:
     attributes:
       spree/address:
-        address1: Street Address
-        address2: Street Address (cont'd)
-        city: City
-        company: Company
-        name: Name
-        phone: Phone
+        address1: Địa chỉ 1
+        address2: Địa chỉ 2
+        city: Thành phố
+        company: Công ty
+        name: Tên
+        phone: Điện thoại
         zipcode: Zip Code
       spree/adjustment:
-        adjustable: Adjustable
-        adjustment_reason_id: Reason
-        amount: Amount
-        label: Label
-        name: Name
-        state: State
+        adjustable: Có thể điều chỉnh
+        adjustment_reason_id: Lý do
+        amount: Số lượng
+        label: Nhãn
+        name: Tên
+        state: Trạng thái
       spree/adjustment_reason:
         active: Active
         code: Code
-        name: Name
-        state: State
+        name: Tên
+        state: Trạng thái
       spree/calculator/flat_rate:
-        preferred_amount: Amount
+        preferred_amount: Số lượng
       spree/calculator/tiered_flat_rate:
-        preferred_base_amount: Base Amount
-        preferred_currency: Currency
-        preferred_tiers: Tiers
+        preferred_base_amount: Lượng cơ sở
+        preferred_currency: Tiền tệ
+        preferred_tiers: Bậc
       spree/calculator/tiered_percent:
-        preferred_base_percent: Base Percent
-        preferred_currency: Currency
-        preferred_tiers: Tiers
+        preferred_base_percent: Phần trăm cơ sở
+        preferred_currency: Tiền tệ
+        preferred_tiers: Bậc
       spree/carton:
-        tracking: Tracking
+        tracking: Theo dõi
       spree/country:
         iso: ISO
         iso3: ISO3
         iso_name: ISO Name
-        name: Name
+        name: Tên
         numcode: ISO Code
         states_required: States Required
       spree/credit_card:
@@ -65,17 +64,17 @@ en:
         card_code: Card Code
         cc_type: Brand
         expiration: Expiration
-        month: Month
-        name: Name
+        month: Tháng
+        name: Tên
         number: Card Number
-        verification_value: Verification Value
-        year: Year
+        verification_value: Giá trị xác minh
+        year: Năm
       spree/customer_return:
-        created_at: Date/Time
-        name: Name
-        number: Return Number
+        created_at: Ngày/giờ
+        name: Tên
+        number: Số trả lại
         reimbursement_status: Reimbursement status
-        total: Total
+        total: Tổng cộng
         total_excluding_vat: Pre-Tax Total
       spree/image:
         alt: Alternative Text
@@ -118,8 +117,8 @@ en:
         ip_address: IP Address
         item_total: Item Total
         number: Number
-        payment_state: Payment State
-        shipment_state: Shipment State
+        payment_state: Trạng thái thanh toán
+        shipment_state: Trạng thái lô hàng
         shipment_total: Ship Total
         special_instructions: Special Instructions
         state: State
@@ -953,23 +952,23 @@ en:
         configuration: Configuration
         display_order: Display Order
         option_types: Option Types
-        orders: Orders
+        orders: Đơn hàng
         overview: Overview
-        payments: Payments
-        products: Products
+        payments: Thanh toán
+        products: Sản phẩm
         promotion_categories: Promotion Categories
-        promotions: Promotions
+        promotions: Khuyến mãi
         properties: Property Types
         rma: RMA
-        settings: Settings
-        shipping: Shipping
-        stock: Stock
-        stock_items: Store Stock
-        stores: Stores
+        settings: Cài đặt
+        shipping: Giao hàng
+        stock: Số lượng
+        stock_items: Số lượng sản phẩm
+        stores: Cửa hàng
         taxes: Taxes
-        taxonomies: Taxonomies
+        taxonomies: Phân loại
         taxons: Taxons
-        users: Users
+        users: Người dùng
         zones: Zones
       taxons:
         display_order: Display Order
@@ -1092,7 +1091,7 @@ en:
     base_percent: Base Percent
     bill_address: Bill Address
     billing: Billing
-    billing_address: Billing Address
+    billing_address: Địa chỉ thanh toán
     both: Both
     calculated_reimbursements: Calculated Reimbursements
     calculator: Calculator
@@ -1242,16 +1241,16 @@ en:
       first_day: 0
       format: "%Y/%m/%d"
       js_format: yy/mm/dd
-    date_range: Date Range
-    default: Default
-    default_refund_amount: Default Refund Amount
-    delete: Delete
-    deleted_successfully: Deleted successfully
+    date_range: Thời hạn
+    default: Mặc định
+    default_refund_amount: Số tiền hoàn lại mặc định
+    delete: Xóa
+    deleted_successfully: Xóa thành công
     deleted_variants_present: Some line items in this order have products that are
       no longer available.
-    delivery: Delivery
-    depth: Depth
-    description: Description
+    delivery: Vận chuyển
+    depth: Chiều sâu
+    description: Mô tả
     destination: Destination
     destination_location: Destination location
     destroy: Destroy
@@ -2035,7 +2034,7 @@ en:
     shipped: Shipped
     shipped_at: Shipped At
     shipping: Shipping
-    shipping_address: Shipping Address
+    shipping_address: Địa chỉ giao hàng
     shipping_categories: Shipping Categories
     shipping_category: Shipping Category
     shipping_flat_rate_per_item: Flat Rate per Package Item
@@ -2054,7 +2053,7 @@ en:
         sales_tax: "+ %{amount} %{tax_rate_name}"
         vat: incl. %{amount} %{tax_rate_name}
     shipping_total: Shipping total
-    shop_by_taxonomy: Shop by %{taxonomy}
+    shop_by_taxonomy:  "%{taxonomy}"
     shopping_cart: Shopping Cart
     show: Show
     show_active: Show Active
