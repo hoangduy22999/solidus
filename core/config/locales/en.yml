@@ -1468,7 +1468,7 @@ en:
           It has since been replaced by another with the same SKU.
         tax_category: 'This determines what kind of taxation is applied to this variant.<br/>
           Default: Use tax category of the product associated with this variant'
-    home: Home
+    home: Trang chủ
     i18n:
       available_locales: Available Locales
       fields: Fields
@@ -1553,26 +1553,26 @@ en:
     lifetime_stats: Lifetime Stats
     line_item_adjustments: Line item adjustments
     list: List
-    listing_countries: Countries
-    listing_orders: Orders
-    listing_products: Products
+    listing_countries: Thành phố
+    listing_orders: Đơn hàng
+    listing_products: Sản phẩm
     listing_reports: Reports
     listing_tax_categories: Tax Categories
-    listing_users: Users
+    listing_users: Người dùng
     loading: Loading
     locale_changed: Locale Changed
     location: Location
     lock: Lock
     log_entries: Log Entries
-    logged_in_as: Logged in as
-    logged_in_succesfully: Logged in successfully
-    logged_in_successfully: Logged in successfully
-    logged_out: You have been logged out.
-    login: Login
-    login_as_existing: Login as Existing Customer
-    login_failed: Login authentication failed.
-    login_name: Login
-    logout: Logout
+    logged_in_as: Đăng nhập với
+    logged_in_succesfully: Đăng nhập thành công
+    logged_in_successfully: Đăng nhập thành công
+    logged_out: Bạn đã đăng xuất
+    login: Đăng nhập
+    login_as_existing: Đăng nhập với khách hàng có sẵn
+    login_failed: Xác thực đăng nhập lỗi
+    login_name: Đăng nhập
+    logout: Đăng xuất
     logs: Logs
     look_for_similar_items: Look for similar items
     make_refund: Make refund
@@ -1601,7 +1601,7 @@ en:
     month: Month
     more: More
     move_stock_between_locations: Move Stock Between Locations
-    my_account: My Account
+    my_account: Tài khoản
     my_orders: My Orders
     name: Name
     name_contains: Name Contains
@@ -1749,18 +1749,18 @@ en:
     order_state:
       address: Address
       awaiting_return: Awaiting return
-      canceled: Canceled
-      cart: Cart
-      complete: Complete
-      confirm: Confirm
-      delivery: Delivery
-      payment: Payment
+      canceled: Đã hủy
+      cart: Giỏ hàng
+      complete: Hoàn thành
+      confirm: Đã xác nhận
+      delivery: Vận chuyển
+      payment: Thanh toán
       resumed: Resumed
-      returned: Returned
-    order_summary: Order Summary
-    order_sure_want_to: Are you sure you want to %{event} this order?
-    order_total: Order Total
-    order_updated: Order Updated
+      returned: Đã trả hàng
+    order_summary: Tổng đơn hàng
+    order_sure_want_to: Bạn có muốn %{event} cho đơn hàng này?
+    order_total: Tổng đơn hàng
+    order_updated: Đơn hàng đã được cập nhật
     orders: Orders
     other_items_in_other: Other Items in Order
     out_of_stock: Out of Stock
@@ -2270,10 +2270,10 @@ en:
     what_is_this: What's This?
     width: Width
     year: Year
-    you_cannot_undo_action: You will not be able to undo this action
-    you_have_no_orders_yet: You have no orders yet
-    your_cart_is_empty: Your cart is empty
-    your_order_is_empty_add_product: Your order is empty. Please add products first.
+    you_cannot_undo_action: Bạn sẽ không được quay lại hành động này
+    you_have_no_orders_yet: Bạn chưa có order nào
+    your_cart_is_empty: Giỏ hàng trống
+    your_order_is_empty_add_product: Đơn hàng trống. Hãy thêm sản phẩm trước
     zip: Zip
     zipcode: Zip Code
     zone: Zone

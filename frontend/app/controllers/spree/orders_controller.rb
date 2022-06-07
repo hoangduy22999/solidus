@@ -5,6 +5,7 @@ module Spree
     helper 'spree/products', 'spree/orders'
 
     respond_to :html
+    respond_to :js
 
     before_action :store_guest_token
     before_action :assign_order, only: :update
@@ -66,6 +67,9 @@ module Spree
       end
 
       respond_with(@order) do |format|
+        format.js do
+          binding.pry
+        end
         format.html do
           if @order.errors.any?
             flash[:error] = @order.errors.full_messages.join(", ")

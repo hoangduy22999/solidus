@@ -142,7 +142,6 @@ module Spree
           CONFIGURATION_TABS,
           'wrench',
           condition: -> {
-            can?(:admin, Spree::Store) ||
             can?(:admin, Spree::AdjustmentReason) ||
             can?(:admin, Spree::PaymentMethod) ||
             can?(:admin, Spree::RefundReason) ||
@@ -157,7 +156,7 @@ module Spree
           },
           label: :settings,
           partial: 'spree/admin/shared/settings_sub_menu',
-          url: :admin_stores_path,
+          url: :admin_payment_methods_path,
           position: 5
         )
       ]
