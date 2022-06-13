@@ -80,26 +80,26 @@ en:
         alt: Alternative Text
         attachment: Filename
       spree/inventory_unit:
-        state: State
+        state: Trạng thái
       spree/legacy_user:
         email: Email
-        password: Password
-        password_confirmation: Password Confirmation
+        password: Mật khẩu
+        password_confirmation: Xác nhận mật khẩu
         spree_roles: Roles
       spree/line_item:
-        description: Item Description
-        name: Name
-        price: Price
-        quantity: Quantity
-        total: Total price
+        description: Mô tả vật phẩm
+        name: Tên
+        price: Giá
+        quantity: Số lượng
+        total: Tổng giá
       spree/log_entry:
-        details: Message
-        created_at: Date/Time
+        details: Tin nhắn
+        created_at: Ngày/Giờ
       spree/option_type:
-        name: Name
+        name: Tên
         presentation: Presentation
       spree/option_value:
-        name: Name
+        name: Tên
         presentation: Presentation
       spree/order:
         additional_tax_total: Tax
@@ -121,7 +121,7 @@ en:
         shipment_state: Trạng thái lô hàng
         shipment_total: Ship Total
         special_instructions: Special Instructions
-        state: State
+        state: Trạng thái
         total: Total
       spree/order/bill_address:
         address1: Billing address street
@@ -139,43 +139,43 @@ en:
         zipcode: Shipping address zipcode
       spree/payment:
         amount: Amount
-        created_at: Date/Time
+        created_at: Ngày/Giờ
         number: Identifier
         response_code: Transaction ID
-        state: State
+        state: Trạng thái
       spree/payment_capture_event:
-        created_at: Date/Time
+        created_at: Ngày/Giờ
         amount: Amount
       spree/payment_method:
         active: Active
         auto_capture: Auto Capture
-        available_to_admin: Available to Admin
-        available_to_users: Available to Users
-        description: Description
+        available_to_admin: Admin
+        available_to_users: User
+        description: Mô tả
         display_on: Display
-        name: Name
+        name: Tên
         preference_source: Preference Source
-        type: Type
+        type: Kiểu
       spree/price:
-        amount: Price
+        amount: Giá
         country: Country
-        currency: Currency
-        is_default: Currently Valid
-        price: Price
+        currency: Tiền tệ
+        is_default: Tiền tệ mặc định
+        price: Giá
         variant: Variant
       spree/product:
         available_on: Available On
         cost_currency: Cost Currency
         cost_price: Cost Price
         depth: Depth
-        description: Description
+        description: Mô tả
         discontinue_on: Discontinue on
         height: Height
         master_price: Master Price
         meta_description: Meta Description
         meta_keywords: Meta Keywords
         meta_title: Meta Title
-        name: Name
+        name: Tên
         on_hand: On Hand
         price: Master Price
         promotionable: Promotable
@@ -192,12 +192,12 @@ en:
         description: Description
         event_name: Event Name
         expires_at: End
-        name: Name
+        name: Tên
         path: Path
         per_code_usage_limit: Per code usage limit
         promotion_uses: Promotion Uses
         starts_at: Start
-        status: Status
+        status: Trạng thái
         usage_limit: Usage Limit
         uses: Uses
       spree/promotion/actions/create_adjustment:
@@ -254,22 +254,22 @@ en:
         presentation: Presentation
       spree/refund:
         amount: Amount
-        description: Description
-        refund_reason_id: Reason
+        description: Mô tả
+        refund_reason_id: Lý do
       spree/refund_reason:
         active: Active
         code: Code
         name: Name
-        state: State
+        state: Trạng thái
       spree/reimbursement:
-        created_at: Date/Time
+        created_at: Ngày/Giờ
         number: Number
         reimbursement_status: Status
         total: Total
       spree/reimbursement/credit:
         amount: Amount
       spree/reimbursement_type:
-        created_at: Date/Time
+        created_at: Ngày/Giờ
         name: Name
         type: Type
       spree/return_authorization:
@@ -281,7 +281,7 @@ en:
         amount: Amount Before Sales Tax
         charged: Charged
         exchange_variant: Exchange For
-        inventory_unit_state: State
+        inventory_unit_state: Trạng thái
         item_received?: Item Received?
         override_reimbursement_type_id: Reimbursement Type Override
         preferred_reimbursement_type_id: Preferred Reimbursement Type
@@ -291,11 +291,11 @@ en:
         total: Total
       spree/return_reason:
         active: Active
-        created_at: Date/Time
+        created_at: Ngày/Giờ
         memo: Memo
         name: Name
         number: RMA Number
-        state: State
+        state: Trạng thái
       spree/role:
         name: Name
       spree/shipment:
@@ -339,8 +339,8 @@ en:
         phone: Phone
         propagate_all_variants: Propagate All Variants
         restock_inventory: Restock Inventory
-        state: State
-        state_id: State
+        state: Trạng thái
+        state_id: Trạng thái
         zipcode: Zip
       spree/stock_movement:
         originated_by: Originated By
@@ -375,7 +375,7 @@ en:
         user_total_amount: Total Amount
       spree/store_credit_reason:
         name: Name
-        state: State
+        state: Trạng thái
       spree/store_credit_update_reason:
         name: Name
       spree/tax_category:
@@ -625,8 +625,8 @@ en:
         one: Capture Event
         other: Capture Events
       spree/payment_method:
-        one: Payment Method
-        other: Payment Methods
+        one: Phương thức thanh toán
+        other: Phương thức thanh toán
       spree/payment_method/bogus_credit_card: Bogus Credit Card Payments
       spree/payment_method/check: Check Payments
       spree/payment_method/simple_bogus_credit_card: Simple Bogus Credit Card Payments
@@ -702,8 +702,8 @@ en:
         one: Shipping Method
         other: Shipping Methods
       spree/state:
-        one: State
-        other: States
+        one: Trạng thái
+        other: Trạng thái
       spree/stock: stock
       spree/stock_item:
         one: Stock Item
@@ -1014,11 +1014,11 @@ en:
         table_filter:
           show_deleted: Show Deleted Variants
     administration: Administration
-    agree_to_privacy_policy: Agree to Privacy Policy
-    agree_to_terms_of_service: Agree to Terms of Service
-    all: All
-    all_adjustments_finalized: All adjustments successfully finalized!
-    all_adjustments_unfinalized: All adjustments successfully unfinalized!
+    agree_to_privacy_policy: Đồng ý với Chính sách Bảo mật
+    agree_to_terms_of_service: Đồng ý với Điều khoản dịch vụ
+    all: Tất cả
+    all_adjustments_finalized: Tất cả các điều chỉnh đã hoàn tất thành công!
+    all_adjustments_unfinalized: Tất cả các điều chỉnh đã được thực hiện thành công!
     all_departments: All departments
     all_items_have_been_returned: All items have been returned
     already_signed_up_for_analytics: You have already signed up for Spree Analytics
@@ -1123,7 +1123,7 @@ en:
     card_number: Card Number
     card_type: Brand
     card_type_is: Card type is
-    cart: Cart
+    cart: Giỏ hàng
     cart_subtotal:
       one: Subtotal (1 item)
       other: Subtotal (%{count} items)
@@ -1160,22 +1160,22 @@ en:
     configurations: Configurations
     confirm: Confirm
     confirm_delete: Confirm Deletion
-    confirm_order: Confirm Order
-    confirm_password: Password Confirmation
-    continue: Continue
-    continue_shopping: Continue shopping
+    confirm_order: Xác nhận đơn hàng
+    confirm_password: Xác nhận mật khẩu
+    continue: Tiếp tục
+    continue_shopping: Tiếp tục mua sắm
     cost_currency: Cost Currency
     cost_price: Cost Price
     could_not_connect_to_jirafe: Could not connect to Jirafe to sync data. This will
       be automatically retried later.
-    could_not_create_customer_return: Could not create customer return
+    could_not_create_customer_return: Không thể tạo return khách hàng
     could_not_create_stock_movement: There was a problem saving this stock movement.
       Please try again.
     count_on_hand: Count On Hand
     countries: Countries
     country: Country
     country_based: Country Based
-    country_name: Name
+    country_name: Tên
     country_names:
       CA: Canada
       FRA: France
@@ -1198,13 +1198,13 @@ en:
     coupon_code_unknown_error: This coupon code could not be applied to the cart at
       this time.
     create: Create
-    create_a_new_account: Create a new account
+    create_a_new_account: Tạo tài khản mới
     create_one: Create One.
     create_promotion_code: Create promotion code
     create_reimbursement: Create reimbursement
-    created_at: Created At
-    created_by: Created by
-    created_successfully: Created successfully
+    created_at: Đã tạo vào
+    created_by: Đã tạo bởi
+    created_successfully: Đã tạo thành công
     credit: Credit
     credit_allowed: Credit Allowed
     credit_card: Credit Card
@@ -1311,8 +1311,8 @@ en:
         no_user_specified: You need to login before applying this coupon code.
         not_first_order: This coupon code can only be applied to your first order.
     email: Email
-    empty: Empty
-    empty_cart: Empty Cart
+    empty: Trống
+    empty_cart: Giỏ hàng trống
     enable_mail_delivery: Enable Mail Delivery
     end: End
     ending_in: Ending in
@@ -1332,7 +1332,7 @@ en:
     events:
       spree:
         cart:
-          add: Add to cart
+          add: Thêm vào giỏ hàng
         checkout:
           coupon_code_added: Coupon code added
         content:
@@ -1776,15 +1776,14 @@ en:
     pay: pay
     payment: Payment
     payment_amount: Payment Amount
-    payment_could_not_be_created: Payment could not be created.
+    payment_could_not_be_created: Thanh toán chưa được tạo
     payment_identifier: Payment Identifier
-    payment_information: Payment Information
-    payment_method: Payment Method
-    payment_method_not_supported: That payment method is unsupported. Please choose
-      another one.
-    payment_method_settings_warning: If you are changing the payment method type,
-      you must save first before you can edit the payment method settings
-    payment_methods: Payment Methods
+    payment_information: Thông tin thanh toán
+    payment_method: Phương thức thanh toán
+    payment_method_not_supported: TPhương thức thanh toán không được hỗ trợ. Vui lòng chọn 1 phương thức khác
+    payment_method_settings_warning: Nếu bạn thay đổi kiểu của phương thức thanh toán,
+      Bạn phải lưu trước khi bạn có thể thay đổi cài đặt phương thức thanh toán
+    payment_methods: Phương thức thanh toán
     payment_processing_failed: Payment could not be processed, please check the details
       you entered
     payment_processor_choose_banner_text: If you need help choosing a payment processor,
@@ -1794,29 +1793,28 @@ en:
     payment_states:
       balance_due: Balance due
       checkout: Checkout
-      completed: Completed
+      completed: Đã hoàn thành
       credit_owed: Credit owed
-      failed: Failed
-      invalid: Invalid
-      paid: Paid
-      pending: Pending
-      processing: Processing
+      failed: Lỗi
+      invalid: Chưa chấp nhận
+      paid: Thanh toán
+      pending: Chưa giải quyết
+      processing: Đang xử lí
       void: Void
-    payment_updated: Payment Updated
-    payments: Payments
+    payment_updated: Cập nhật thanh toán
+    payments: Thanh toán
     payments_failed_count:
       one: 1 Payment
       other: "%{count} Payments"
-    pending: Pending
-    percent: Percent
-    percent_per_item: Percent Per Item
+    pending: Chưa giải quyết
+    percent: Phần trăm
+    percent_per_item: Phần trăm trên vật phẩm
     permalink: Permalink
-    phone: Phone
+    phone: Điện thoại
     place_order: Place Order
-    please_define_payment_methods: Please define some payment methods first.
-    please_enter_reasonable_quantity: Please enter a reasonable quantity.
-    populate_get_error: Something went wrong. Please try adding the item again.
-    powered_by: Powered by
+    please_define_payment_methods: Vui lòng điền phương thức thanh toán trước
+    please_enter_reasonable_quantity: Vui lòng nhập số lượng hợp lý.
+    populate_get_error: Có gì đó sai. Vui lòng thử thêm lại vật phẩm
     pre_tax_amount: Pre-Tax Amount
     pre_tax_refund_amount: Pre-Tax Refund Amount
     pre_tax_total: Pre-Tax Total
@@ -1981,18 +1979,18 @@ en:
     sales_total: Sales Total
     sales_total_description: Sales Total For All Orders
     sales_totals: Sales Totals
-    save_and_continue: Save and Continue
-    save_my_address: Save my address
+    save_and_continue: Lưu và tiếp tục
+    save_my_address: Lưu địa chỉ của tôi
     say_no: 'No'
     say_yes: 'Yes'
     scope: Scope
-    search: Search
-    search_results: Search results for '%{keywords}'
-    searching: Searching
+    search: Tìm kiếm
+    search_results: Kết quả tìm kiếm cho '%{keywords}'
+    searching: Đang tìm kiếm
     secure_connection_type: Secure Connection Type
     security_settings: Security Settings
-    select: Select
-    select_a_reason: Select a reason
+    select: Lựa chọn
+    select_a_reason: Lựa chọn 1 lý do
     select_a_stock_location: Select a stock location
     selected_quantity_not_available: selected of %{item} is not available.
     send_copy_of_all_mails_to: Send Copy of All Mails To
@@ -2023,17 +2021,17 @@ en:
     shipment_numbers: Shipment numbers
     shipment_state: Shipment State
     shipment_states:
-      backorder: Backorder
-      canceled: Canceled
-      partial: Partial
-      pending: Pending
-      ready: Ready
-      shipped: Shipped
+      backorder: Đặt trước
+      canceled: Đã hủy
+      partial: Chưa hoàn thành
+      pending: Chưa xử lí
+      ready: Sẵn sàng
+      shipped: Đã giao hàng
     shipment_transfer_error: There was an error transferring variants
     shipments: Shipments
-    shipped: Shipped
+    shipped: Đã giao hàng
     shipped_at: Shipped At
-    shipping: Shipping
+    shipping: Đang giao hàng
     shipping_address: Địa chỉ giao hàng
     shipping_categories: Shipping Categories
     shipping_category: Shipping Category
@@ -2076,9 +2074,9 @@ en:
       change_protocol: Please switch to using HTTP (rather than HTTPS) and retry this
         request.
     start: Start
-    state: State
+    state: Trạng thái
     state_based: State Based
-    states: States
+    states: Trạng thái
     states_count:
       one: "%{count} State"
       other: "%{count} States"
